@@ -1,0 +1,24 @@
+[16624:20196:0923/201824.211:VERBOSE1:crash_service_main.cc(81)] Session start. cmdline is [--reporter-url=https://atom.io/crash_reports --application-name=Atom "--crashes-directory=C:\Users\hp\AppData\Local\Temp\Atom Crashes" --v=1]
+[16624:20196:0923/201824.228:VERBOSE1:crash_service.cc(147)] window handle is 000000000039093C
+[16624:20196:0923/201824.228:VERBOSE1:crash_service.cc(275)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\hp\AppData\Local\Temp\Atom Crashes
+[16624:20196:0923/201824.228:VERBOSE1:crash_service.cc(279)] checkpoint is C:\Users\hp\AppData\Local\Temp\Atom Crashes\crash_checkpoint.txt
+server is https://atom.io/crash_reports
+maximum 128 reports/day
+reporter is electron-crash-service
+[16624:20196:0923/201824.228:VERBOSE1:crash_service_main.cc(95)] Ready to process crash requests
+[16624:19800:0923/201824.228:VERBOSE1:crash_service.cc(309)] client start. pid = 16812
+[16624:19800:0923/201830.061:VERBOSE1:crash_service.cc(309)] client start. pid = 19124
+[16624:19800:0923/202601.431:VERBOSE1:crash_service.cc(309)] client start. pid = 17788
+[16624:14948:0923/202601.793:VERBOSE1:crash_service.cc(318)] client end. pid = 17788
+[16624:19800:0923/202628.760:VERBOSE1:crash_service.cc(309)] client start. pid = 416
+[14512:7904:0923/202628.786:VERBOSE1:crash_service_main.cc(81)] Session start. cmdline is [--reporter-url=https://atom.io/crash_reports --application-name=Atom "--crashes-directory=C:\Users\hp\AppData\Local\Temp\Atom Crashes" --v=1]
+[14512:7904:0923/202628.790:VERBOSE1:crash_service.cc(147)] window handle is 00000000000B0A36
+[14512:7904:0923/202628.790:VERBOSE1:crash_service.cc(275)] pipe name is \\.\pipe\Atom Crash Service
+dumps at C:\Users\hp\AppData\Local\Temp\Atom Crashes
+[14512:7904:0923/202628.790:VERBOSE1:crash_service.cc(279)] checkpoint is C:\Users\hp\AppData\Local\Temp\Atom Crashes\crash_checkpoint.txt
+server is https://atom.io/crash_reports
+maximum 128 reports/day
+reporter is electron-crash-service
+[14512:7904:0923/202628.790:ERROR:crash_service.cc(286)] could not start dumper
+[16624:14948:0923/202628.958:VERBOSE1:crash_service.cc(318)] client end. pid = 416
