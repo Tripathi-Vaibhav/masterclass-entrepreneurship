@@ -28,7 +28,7 @@ h2 {
 }
 .carousel figure {
   margin: 0;
-  width: 40%;
+  width: 25%;
   transform-style: preserve-3d;
   transition: transform 0.5s;
 
