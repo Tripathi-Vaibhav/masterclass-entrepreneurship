@@ -1,3 +1,6 @@
+
+/* 3-D carousels */
+
 * { box-sizing: border-box; }
 .scene{
   border: 1px solid #CCC;
@@ -6,6 +9,7 @@
   position: relative;
   margin: 40px auto;
   perspective: 1000px;
+  transform: translateX(380px);
 }
 .carousel {
   width: 100%;
@@ -36,6 +40,8 @@
 .carousel__cell:nth-child(8){ background-color:rgba(170, 0, 255, 0.8); }
 .carousel__cell:nth-child(9){ background-color:rgba(255, 0, 170, 0.8); }
 
+
+/* rotate each panel by 40deg and also push it along z-axis */
 
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px); }
 .carousel__cell:nth-child(2) { transform: rotateY( 40deg) translateZ(288px); }
