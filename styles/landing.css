@@ -70,7 +70,7 @@
   position: relative;
   margin: 40px auto;
   perspective: 1000px;
-  transform: translateX(380px);
+  transform: translate3d(380px, -310px, 0);
 }
 .carousel {
   width: 100%;
@@ -113,3 +113,7 @@
 .carousel__cell:nth-child(7) { transform: rotateY(240deg) translateZ(288px); }
 .carousel__cell:nth-child(8) { transform: rotateY(280deg) translateZ(288px); }
 .carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }
+
+.menu_buttons{
+  transform: translate3d(1000px, -300px, 0);
+}
