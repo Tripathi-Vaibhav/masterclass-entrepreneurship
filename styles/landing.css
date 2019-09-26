@@ -6,7 +6,7 @@
   height: 140px;
   /* border: 1px solid #CCC; */
   margin: 80px;
-  perspective: 400px;
+  perspective: 80px;
   transform: translate3d(-30px, -45px, 0);
 }
 
@@ -14,7 +14,7 @@
   font-size: 1.5rem;
   font-weight: bolder;
   color: white;
-  transform: translate3d(20px, 40px, 0);
+  transform: translate3d(20px, 25px, 0);
 }
 
 .cube {
@@ -56,7 +56,7 @@
 .cube.show-bottom { transform: translateZ(-70px) rotateX(  90deg); }
 
 .cube.is-spinning {
-  animation: spinCube 8s infinite ease-in-out;
+  animation: spinCube 6s infinite linear;
 }
 
 @keyframes spinCube {
