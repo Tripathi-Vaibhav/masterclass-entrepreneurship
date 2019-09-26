@@ -3,7 +3,7 @@
 .scene1 {
   width: 140px;
   height: 140px;
-  border: 1px solid #CCC;
+  /* border: 1px solid #CCC; */
   margin: 80px;
   perspective: 400px;
   transform: translate3d(-30px, -45px, 0);
