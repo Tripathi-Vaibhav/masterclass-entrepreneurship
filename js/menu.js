@@ -1,3 +1,12 @@
+
+//  logo in a rotating cube
+
+var cube = document.querySelector('.cube');
+cube.classList.toggle( 'is-spinning');
+
+
+// rotate 3-D carousel for menu
+
 var carousel = document.querySelector('.carousel');
 var cellCount = 9;
 var selectedIndex = 0;
