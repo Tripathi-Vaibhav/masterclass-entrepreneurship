@@ -1,5 +1,6 @@
 
 /* 3-D cube for logo */
+
 .scene1 {
   width: 140px;
   height: 140px;
@@ -7,6 +8,13 @@
   margin: 80px;
   perspective: 400px;
   transform: translate3d(-30px, -45px, 0);
+}
+
+.logo{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+  transform: translate3d(20px, 40px, 0);
 }
 
 .cube {
@@ -57,15 +65,12 @@
 }
 
 
-
-
-
 /* 3-D carousels for menu */
 
 
 * { box-sizing: border-box; }
 .scene2{
-  border: 1px solid #CCC;
+  /* border: 1px solid #CCC; */
   width: 210px;
   height: 140px;
   position: relative;
@@ -86,11 +91,7 @@
   height: 120px;
   left: 10px;
   top: 10px;
-  text-align: center;
-  font-size: 80px;
-  font-weight: bold;
-  border: 2px solid black;
-  color: white;
+  /* border: 2px solid black; */
 }
 .carousel__cell:nth-child(1){ background-color:rgba(255, 0, 0, 0.8); }
 .carousel__cell:nth-child(2){ background-color:rgba(255, 170, 0, 0.8); }
@@ -116,5 +117,5 @@
 .carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }
 
 .menu_buttons{
-  transform: translate3d(1000px, -270px, 0);
+  transform: translate3d(1150px, -270px, 0);
 }
