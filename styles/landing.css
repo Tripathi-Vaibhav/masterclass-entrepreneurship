@@ -1,5 +1,20 @@
 
+body {
+  background: url("../bg-img.jpg") no-repeat center fixed;
+  background-size: cover;
+  /* background-position: 50%; */
+}
+
 /* 3-D cube for logo */
+
+/* @media (max-width: 600px) {
+  .cube{
+    position: static;
+  }
+  .cube__face{
+    position: static;
+  }
+} */
 
 .scene1 {
   width: 140px;
