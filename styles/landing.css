@@ -134,3 +134,28 @@ body {
 .menu_buttons{
   transform: translate3d(1150px, -270px, 0);
 }
+
+@media (max-width: 600px) {
+
+  body{
+    text-align: center;;
+  }
+  .scene2{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .carousel{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .carosel__cell{
+    transform: translate3d(-10px,30px,0);
+    text-align: center;
+  }
+
+  .menu_buttons{
+    transform: translate3d(-10px,50px,0);
+  }
+}
